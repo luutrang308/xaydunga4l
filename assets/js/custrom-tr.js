@@ -6,6 +6,15 @@ $(document).ready(function() {
     slidesToShow: 1,
     autoplay: false,
   });
+
+  $('.slider_project').slick({
+    dots: false,
+    slidesToShow: 3,
+    autoplay: false,
+    arrows: true,
+    prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/next3.png' alt=''></button>",
+    nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next4.png' alt=''></button>",
+  });
     
 });
 

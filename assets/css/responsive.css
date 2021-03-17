@@ -1,14 +1,33 @@
 @font-face {
-  font-family: Oswald;
-  src: url(./../fonts/Oswald-Medium.ttf);
+  font-family: Helvetica Neue;
+  src: url(./../fonts/HelveticaNeue.otf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(./../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url(./../fonts/HelveticaNeue-Bold.otf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(./../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family:  MTD Geraldyne;
+  src: url(./../fonts/MTDGeraldyne.otf);
+}
+@font-face {
+  font-family: Lato Black;
+  src: url(./../fonts/Lato-Black.ttf);
 }
 
 @font-face {
-  font-family: UTMAvo;
-  src: url(./../fonts/UTMAvo.ttf);
+  font-family: HelveticaNeue-Light;
+  src: url(./../fonts/HelveticaNeue-Light.otf);
 }
 @font-face {
-  font-family: UTMAvoBold;
-  src: url(./../fonts/UTMAvoBold.ttf);
+  font-family: Lato;
+  src: url(./../fonts/Lato-Medium.ttf);
 }
-
