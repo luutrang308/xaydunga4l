@@ -38,7 +38,10 @@
 /* 1366 */
 @media screen and (max-width: 1400px) and (min-width: 1300px) {
   .section_slider_hp .item_slide .content {
-    left: 175px;
+    left: 120px;
+  }
+  .section_about_us .element_text {
+    padding-left: 100px;
   }
 }
 
@@ -46,13 +49,61 @@
 @media screen and (max-width: 1200px) and (min-width: 992px) {
   .section_slider_hp .item_slide .content {
     left: 75px;
+    top: 58%;
+  }
+  .main-header .menu-bar > li > a {
+    font-size: 13px;
+  }
+  .section_slider_hp .item_slide .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .section_slider_hp .item_slide .content p {
+    margin: 20px 0;
+  }
+  .section_slider_hp .element_link_vb {
+    width: 45%;
+  }
+  .section_about_us .element_text {
+    padding: 0 25px;
+  }
+  .section_about_us .element_text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 991px) and (min-width: 570px) {
   .section_slider_hp .item_slide .content {
-    left: 45px;
+    left: 5px;
+    top: 58%;
+  }
+  .main-header .menu-bar > li > a {
+    font-size: 13px;
+  }
+  .section_slider_hp .item_slide .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .section_slider_hp .item_slide .content p {
+    margin: 20px 0;
+  }
+  .section_slider_hp .element_link_vb {
+    width: 100%;
+    position: inherit;
+    right: inherit;
+    bottom: inherit;
+  }
+  .section_about_us .element_text {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .section_about_us .element_img_aboutus {
+    width: 100%;
+    padding: 15px;
   }
 }
 
@@ -80,5 +131,57 @@
     right: inherit;
     bottom: inherit;
   }
+  .site33_head_col12_menu {
+    position: inherit;
+  }
+  .section_about_us .element_text {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .section_about_us .element_img_aboutus {
+    width: 100%;
+    padding: 15px;
+  }
+  .title_page h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .title_page , .breadcrumb_page {
+    padding: 0 15px;
+  }
+  .section_depscription {
+    padding: 15px;
+  }
+  .title_line h2 {
+    font-size: 26px;
+  }
+  .title_basic h2 {
+    font-size: 18px;
+  }
+  .element_form .quytrinh .item label {
+    width: 100%;
+  }
+  .element_form .quytrinh .item span {
+    width: 100%;
+  }
+  .element_form , .element_tab_form .nav_tab li a {
+    padding: 15px;
+  }
+  .element_tab_form .nav_tab , .element_tab_form .tab_content {
+    width: 100%;
+  }
+  .element_tab_form .nav_tab li {
+    height: 50px;
+  }
+  .element_tab_form .nav_tab li.active a:before {
+    display: none;
+  }
+  .element_tab_form .nav_tab li a {
+    width: 100%;
+  }
+  .section_quytrinh {
+    padding: 15px;
+  }
+  
 }
 
