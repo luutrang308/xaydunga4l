@@ -42,6 +42,15 @@ $(document).ready(function() {
     event.stopPropagation();
   });
 
+  $('.slider_hp').slick({
+    dots: false,
+    slidesToShow: 1,
+    autoplay: false,
+    autoplaySpeed: 1000,
+    arrows: false,
+    lazyLoad: 'ondemand',
+  });
+
 
     
 });

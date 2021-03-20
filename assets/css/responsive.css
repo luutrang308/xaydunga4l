@@ -31,3 +31,54 @@
   font-family: Lato;
   src: url(./../fonts/Lato-Medium.ttf);
 }
+
+
+
+
+/* 1366 */
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
+  .section_slider_hp .item_slide .content {
+    left: 175px;
+  }
+}
+
+/* 1024 */
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .section_slider_hp .item_slide .content {
+    left: 75px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 991px) and (min-width: 570px) {
+  .section_slider_hp .item_slide .content {
+    left: 45px;
+  }
+}
+
+
+/* 570 */
+@media screen and (max-width: 570px) {
+  .section_slider_hp .item_slide .content {
+    left: 15px;
+  }
+  .section_slider_hp .item_slide .content h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .section_slider_hp .item_slide .content p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .section_slider_hp .item_slide .content .btn_xemngay {
+    width: 140px;
+    height: 40px;
+  }
+  .section_slider_hp .element_link_vb {
+    position: inherit;
+    width: inherit;
+    right: inherit;
+    bottom: inherit;
+  }
+}
+
