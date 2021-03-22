@@ -14,7 +14,7 @@
 .section_banner_page {
   position: relative;
   overflow: hidden;
-  height: 177px;
+  height: 300px;
 }
 .section_banner_page > img {
   width: 100%;
@@ -23,7 +23,7 @@
 }
 .section_banner_page .element_title_page {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 0;
   transform: translate(0, -50%);
   width: 100%;
@@ -729,7 +729,7 @@ a:hover {
   display: none;
 }
 .slider_for_detail .slick-next {
-  right: 15px;
+  right: 0px;
   z-index: 1;
 }
 .slider_for_detail .slick-next:before {
@@ -1158,7 +1158,7 @@ a:hover {
   line-height: 17px;
   color: #5A5A5A;
 }
-.form_dangnhap form .box_item span a {
+.form_dangnhap form .box_item a {
   font-family: Helvetica Neue;
   font-style: italic;
   font-weight: normal;
@@ -1635,7 +1635,7 @@ select:focus {
 .section_slider_hp .item_slide .content {
   position: absolute;
   top: 50%;
-  left: 300px;
+  left: 375px;
   transform: translate(0, -50%);
   width: 515px;
 }
@@ -1858,6 +1858,10 @@ a:hover {
     padding: 10px;
   }
 }
+.site33_foot_col12_chantrang {
+  background: #E9E9E9;
+}
+
 .site33_foot_col12_chantrang .row {
   padding: 10px;
   display: flex;
@@ -1904,6 +1908,10 @@ a:hover {
   color: #5A5A5A;
 }
 
+.site33_foot_col12_chantrang .info p img {
+  margin-right: 15px;
+}
+
 .site33_foot_col12_chantrang .info ul li img {
   margin-right: 15px;
 }
@@ -1928,7 +1936,7 @@ a:hover {
 }
 
 .site33_foot_col12_chantrang .col-left {
-  padding-right: 45px;
+  padding-right: 30px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1985,6 +1993,7 @@ header {
   /*background: var(--white);*/
   display: flex;
   justify-content: flex-end;
+  padding: 0;
 }
 
 .main-header .menu-bar #icon-click {
@@ -2223,23 +2232,42 @@ header {
 }
 
 .list-top > ul {
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.site33_head_col12_menu .list-top li:nth-child(3) {
+  order: 1;
+}
+
+.site33_head_col12_menu .list-top li:nth-child(2) {
+  order: 2;
+}
+
+.site33_head_col12_menu .list-top li:nth-child(1) {
+  order: 3;
 }
 
 .site33_head_col12_menu .list-top li {
   float: right;
+  margin-left: 25px;
 }
 
 .site33_head_col12_menu .list-top li a {
   font-size: 14px;
-  padding: 5px 12px 0px;
   font-weight: 600;
   display: block;
   font-family: Helvetica Neue;
   font-style: normal;
   line-height: 17px;
   color: #5A5A5A;
+  padding: 0;
+}
+
+.site33_head_col12_menu .list-top li a img {
+  margin-left: 15px;
 }
 
 .site33_head_col12_menu .list-top li:first-child a {

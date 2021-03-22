@@ -47,8 +47,8 @@ $(document).ready(function() {
     arrows: true,
     fade: true,
     asNavFor: '.slider_nav_detail',
-    prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/next3.png' alt=''></button>",
-    nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next4.png' alt=''></button>",
+    prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/next3l.png' alt=''></button>",
+    nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next4l.png' alt=''></button>",
   });
   $('.slider_nav_detail').slick({
     slidesToShow: 5,
