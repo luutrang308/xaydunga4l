@@ -722,7 +722,7 @@ a {
 	    }
 	}
 	.slick-next {
-	    right: 25px;
+	    right: 15px;
 	    z-index: 1;
 	    top: 30%;
 	    &:before {
@@ -741,6 +741,11 @@ a {
 	.img {
 		width: 100%;
 		height: 570px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 	.slick-prev {
 	    left: 0;
