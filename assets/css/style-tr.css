@@ -2246,6 +2246,10 @@ header {
   order: 2;
 }
 
+.site33_head_col12_menu .list-top li:nth-child(2) img {
+  margin-left: 10px;
+}
+
 .site33_head_col12_menu .list-top li:nth-child(1) {
   order: 3;
 }
