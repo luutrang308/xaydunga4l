@@ -76,19 +76,6 @@ $(document).ready(function() {
     lazyLoad: 'ondemand',
   });
 
-  var chieurong = $(window).width();
-  if (chieurong < 992) {
-    $('.site33_head_col12_menu').removeClass('site33_head_col12_menu_fixed_hp');
-
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > 50) {
-        $('.site33_head_col12_menu').addClass('site33_head_col12_menu_fixed_hp');
-      } else {
-        $('.site33_head_col12_menu').removeClass('site33_head_col12_menu_fixed_hp');
-      }
-    });
-  }
-
 
     
 });

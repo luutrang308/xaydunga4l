@@ -2020,10 +2020,14 @@ a:hover {
         min-width: unset;
     }
     .site33_foot_col12_chantrang .col-left {
-        width: 100%;
+        flex: 0 0 90%;
+        max-width: 90%;
+        padding-left: 0px;
     }
     .site33_foot_col12_chantrang .col-right {
-        width: 100%;
+        flex: 0 0 10%;
+        max-width: 10%;
+        padding-left: 10px;
     }
 }
 /* ------main-header------ */

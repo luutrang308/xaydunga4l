@@ -346,23 +346,5 @@
   .element_col_detail .nav-tabs {
     border-bottom: none;
   }
-  .site33_head_col12_menu {
-    padding: 0 15px;
-  }
-  .section_banner_page {
-    height: 200px;
-  }
-  .section_banner_page .element_title_page {
-    top: 50%;
-  }
-  .site33_foot_col12_chantrang .row {
-    flex-flow: row wrap;
-    justify-content: flex-start;
-  }
-  .site33_foot_col12_chantrang .col-right ul {
-    margin-left: inherit;
-    margin-right: inherit;
-    margin: inherit;
-  }
 }
 
