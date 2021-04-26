@@ -71,10 +71,10 @@ $(document).ready(function() {
   });
 
   $('.slider_hp').slick({
-    dots: false,
+    dots: true,
     slidesToShow: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 4000,
     arrows: false,
     lazyLoad: 'ondemand',
   });

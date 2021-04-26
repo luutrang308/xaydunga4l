@@ -1710,6 +1710,15 @@ select {
 .section_slider_hp {
 	width: 100%;
 	height: auto;
+	.slider_hp {
+		.slick-dots {
+			bottom: 20px;
+			li button:before {
+				font-size: 14px;
+				color: #2d2d4b;
+			}
+		}
+	}
 	.item_slide {
 		width: 100%;
 		position: relative;
