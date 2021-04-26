@@ -89,6 +89,9 @@
 
 /* 768 */
 @media screen and (max-width: 992px) {
+  .slider_fronav {
+    width: 100%;
+  }
   .section_main_bg .element_search_vb .search_vb span , .section_main_bg .element_search_vb .search_vb span select {
     width: 100%;
     height: 45px;
@@ -118,7 +121,7 @@
     width: 100%;
   }
   .slider_nav_detail .img {
-    height: 80px;
+    height: 150px;
   }
   .element_contact , .element_map {
     width: 100%;
@@ -189,7 +192,7 @@
     bottom: inherit;
   }
   .site33_head_col12_menu {
-    position: inherit;
+    position: inherit !important;
   }
   .section_about_us .element_text {
     padding: 0 15px;
@@ -292,7 +295,10 @@
     overflow: hidden;
   }
   .slider_nav_detail .img {
-    height: 40px;
+    height: 100px;
+  }
+  .slider_nav_detail .slick-slide {
+    padding: 0 2px;
   }
   .slider_for_detail .img {
     height: 200px ;
@@ -345,6 +351,9 @@
   }
   .element_col_detail .nav-tabs {
     border-bottom: none;
+  }
+  .site33_head_col12_menu.site33_head_col12_menu_fixed_hp.fixmobi {
+    position: fixed !important;
   }
 }
 

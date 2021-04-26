@@ -51,12 +51,15 @@ $(document).ready(function() {
     nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next4l.png' alt=''></button>",
   });
   $('.slider_nav_detail').slick({
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '.slider_for_detail',
     dots: false,
     centerMode: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    arrows: true,
+    prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/next3l.png' alt=''></button>",
+    nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next4l.png' alt=''></button>",
   });
 
   $('.element_faq .faq_item').click(function(event) {
@@ -123,3 +126,15 @@ $("#num-3")
       postfix: "+"
   }
 );
+
+var mobi = $( window ).width();
+if(mobi < 992) {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.site33_head_col12_menu.site33_head_col12_menu_fixed_hp').addClass('fixmobi');
+    } else {
+      $('.site33_head_col12_menu.site33_head_col12_menu_fixed_hp').removeClass('fixmobi');
+    }
+  });
+}
+
