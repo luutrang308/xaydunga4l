@@ -73,7 +73,7 @@ $(document).ready(function() {
   $('.slider_hp').slick({
     dots: false,
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     arrows: false,
     lazyLoad: 'ondemand',
